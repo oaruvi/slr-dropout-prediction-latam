@@ -1,0 +1,26 @@
+{
+ "Imbalance technique mentioned (>=2)": {
+  "regex": "SMOTE|ADASYN|over-?sampl|under-?sampl|cost[- ]sensitive|resampl",
+  "minimum_matches": 2
+ },
+ "F1 mentioned (>=3)": {
+  "regex": "\\bF1\\b|F-?measure|F-?score|medida F",
+  "minimum_matches": 3
+ },
+ "AUC/ROC mentioned (>=3)": {
+  "regex": "\\bAUC\\b|\\bROC\\b|area under",
+  "minimum_matches": 3
+ },
+ "SHAP or LIME mentioned (>=3)": {
+  "regex": "\\bSHAP\\b|\\bLIME\\b",
+  "minimum_matches": 3
+ },
+ "Calibration terms (>=1)": {
+  "regex": "brier",
+  "minimum_matches": 1
+ },
+ "Dashboard or early warning system mentioned (>=2)": {
+  "regex": "dashboard|early warning system|sistema de alerta",
+  "minimum_matches": 2
+ }
+}
