@@ -1,0 +1,32 @@
+﻿column,protocol_entity,definition,observed_values,verified_against_full_text
+Study ID,A1,"Internal identifier of the report (suffix = database: SCP Scopus, WOS Web of Science, IEEE IEEE Xplore, ACM ACM Digital Library). It is also the BibTeX key in included_studies.bib.",free text,yes
+Year,A3,Year of the final published version.,2020-2025,yes
+Country of the dataset,A5,Country of the institution where the dataset originates (not the authors' affiliation).,Brazil | Peru | Ecuador | Chile | Mexico | Colombia | Argentina | Costa Rica | Multi-country | Cuba | Panama,yes
+Publication type (from bibliographic record),A4,"Type of venue, taken from the bibliographic record.",Journal article | Conference paper | Book chapter,no
+Data source,C1,Origin of the data used to train the models.,Student information system only | Multiple sources | Learning management system only | Surveys only,yes
+Best-performing model,D2,"Model identified by the authors as best, grouped into families.",Random forest | Neural networks / deep learning | Gradient boosting | Logistic regression | Decision tree | Ensemble / stacking | Other | KNN | SVM | Naive Bayes | Not reported,yes
+Sequential model,D3,"A model for sequential data (LSTM, GRU, RNN or similar) is part of the study's own modeling.",No | Yes,yes
+Metrics reported,E1,Performance metrics reported for the models; several values separated by commas.,AUC-ROC | Accuracy | F1 | Kappa | Other | PR-AUC | Precision | Recall | Specificity,yes
+Validation strategy,E3,Procedure used to estimate performance. Temporal = training on earlier periods and testing on later ones.,k-fold | Hold-out and k-fold | Hold-out | Not reported | Temporal,yes
+Probability calibration,E4,"Calibration of predicted probabilities is reported (calibration curve, Brier score, ECE, calibration slope or intercept).",No | Yes,yes
+Class imbalance treatment,F1,Technique applied to address class imbalance.,None reported | SMOTE / oversampling | Undersampling | Combined | Cost-sensitive learning,yes
+Generative balancing,F1,"A generative model (GAN, CTGAN, VAE or similar) is used to balance the classes.",No | Yes,yes
+Imbalance treatment detail,F1,Free-text detail for studies that combine several techniques.,free text,yes
+Explanation method,G1,Post-hoc explanation method applied to the study's models. Global feature importance alone is not coded.,No | SHAP | LIME,yes
+Fairness analysis,G2,Analysis of performance or predictions across subgroups with an explicit fairness aim or metric (Partial = subgroup comparison without a fairness metric).,No | Partial | Yes,yes
+Early warning system,G3,The study presents a dropout early warning system.,No | Yes,yes
+Dashboard or platform,G4,"The study presents a dashboard, web platform or prototype for users such as advisors.",No | Yes,yes
+Operational deployment,G5,The model is reported as running in institutional operation.,No | Yes,yes
+Evaluation of an intervention,G6,The study evaluates the effect of an intervention based on the predictions.,No,yes
+Delivery mode,B4,Mode of the programs studied.,Not reported | Distance / online | On-site | Mixed,yes
+Ethics review,H1,"Ethics approval, exemption or committee review is reported.",Not reported | Approval | Exemption,yes
+Informed consent,H2,Informed consent of participants is reported.,Not reported | Yes | Not applicable (secondary records),yes
+Anonymization,H3,"Anonymization, de-identification or pseudonymization of the data is reported.",Not reported | Reported,yes
+Data-protection regulation cited,H4,Data-protection law or regulation cited by the study.,Not reported | LGPD (Brazil) | Habeas data legislation (Colombia) | LOPDP (Ecuador) | Law 8968 (Costa Rica),yes
+Data availability,H5,Availability of the data used.,No statement | On request | Stated as not available | Public,yes
+Code availability,H6,Availability of the code.,No statement | Public,yes
+Retracted,-,Retraction status checked before the analysis.,No,yes
+Sample size (verified),B2,"Number of students or records in the final sample used for modeling, as stated in the full text after data cleaning; ""Not reported"" when the article does not give it. For ART205_SCP the figure counts synthetic records generated from 144 students.",free text,"yes"
+Sample unit (verified),B2,"What the sample size counts: students, or records of another unit such as student-semester or student-course.",Students | Records | Records (student-semester) | other,"yes"
+Leading predictor dimension (verified),C2,"Dimension of the predictors that dominate the model inputs, assigned from the variables listed in the full text. ACAD-PERF: performance during the program; ACAD-PRE: pre-university background; ACAD-BEHAV: academic behavior (attendance, platform activity); SOCECO: socioeconomic; DEMO: demographic; PSICO: psychological or motivational; OTRA: other.",ACAD-PERF | ACAD-PRE | ACAD-BEHAV | SOCECO | DEMO | PSICO | OTRA | Not reported,"yes"
+Title (bibliographic record),A2,Title as it appears in the bibliographic record.,free text,no
