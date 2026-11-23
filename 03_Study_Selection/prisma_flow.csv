@@ -1,0 +1,22 @@
+stage,n,file
+Records identified,1095,
+  Scopus,678,
+  Web of Science,302,
+  ACM Digital Library,65,
+  IEEE Xplore,50,
+Duplicate records removed,214,duplicates.csv
+Records screened (title and abstract),881,title_abstract_screening.csv
+Records excluded,495,
+Reports sought for retrieval,386,
+Reports not retrieved,69,
+Reports assessed for eligibility,317,full_text_screening.csv
+Reports excluded,232,excluded_reports.csv
+  Not focused on dropout prediction,145,
+  Not undergraduate higher education,39,
+  Data from outside Latin America,26,
+  Review article,16,
+  Duplicate report,2,
+  Published before 2020,2,
+  Retracted,1,
+  No performance metrics reported,1,
+Studies included in the review,85,../04_Coded_Dataset/coded_dataset.csv
