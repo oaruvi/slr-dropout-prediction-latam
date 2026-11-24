@@ -70,7 +70,7 @@ A = [r for r in G if r['periodo'] == '2020-2022']; B = [r for r in G if r['perio
 fig, ax = plt.subplots(figsize=(7.4, 3.9))
 y = np.arange(len(P))[::-1]; h = 0.38
 va = [100 * sum(f(r) for r in A) / len(A) for _, f in P]; vb = [100 * sum(f(r) for r in B) / len(B) for _, f in P]
-b1 = ax.barh(y + h / 2, va, h, color='#A5A5A5', label=f'2020–2022 (n = {len(A)})'); b2 = ax.barh(y - h / 2, vb, h, color='#4472C4', label=f'2023–2025 (n = {len(B)})')
+b1 = ax.barh(y + h / 2, va, h, color='#A5A5A5', label=f'2020–2022 (n = {len(A)})'); b2 = ax.barh(y - h / 2, vb, h, color='#4472C4', label=f'2023–2026 (n = {len(B)})')
 ax.bar_label(b1, fmt='%.0f', fontsize=7.5, padding=2); ax.bar_label(b2, fmt='%.0f', fontsize=7.5, padding=2)
 ax.set_yticks(y); ax.set_yticklabels([p for p, _ in P], fontsize=8.5); ax.set_xlabel('Studies reporting the practice (%)'); ax.set_xlim(0, 108)
 ax.spines[['top', 'right']].set_visible(False); ax.legend(frameon=False, fontsize=8.5, loc='lower right')
