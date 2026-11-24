@@ -51,7 +51,7 @@ python 05_Analysis/make_figures.py
 | Output | Content | In the article |
 |---|---|---|
 | `outputs/frequencies.csv` | Number and percentage of studies in every category of every coded variable | Sections 3.1–3.8, Tables 4–8 |
-| `outputs/by_period.csv` | Indicators for 2020–2022 and 2023–2025 | Figure 3 and comparisons by period |
+| `outputs/by_period.csv` | Indicators for 2020–2022 and 2023–2026 | Figure 3 and comparisons by period |
 | `outputs/sensitivity_recomputed.csv` | Indicators for the main analysis and sensitivity analyses S1–S3 | Section 3.9, Table S4 |
 | `figures/fig1_prisma.png` | PRISMA 2020 flow diagram | Figure 1 |
 | `figures/fig2_year_country.png` | Studies by year and by country of the dataset | Figure 2 |
