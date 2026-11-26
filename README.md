@@ -5,7 +5,7 @@ This repository contains the search strategies, selection records, coded dataset
 > Ruiz-Vivanco, O.; González-Eras, A.; Sierra, B. Machine Learning for Student Dropout Prediction in Latin American Higher Education: A Systematic Review of Data, Models, Evaluation, and Reporting Practices. *Applied Sciences* (submitted).
 
 - **Protocol registration (OSF Registries):** https://doi.org/10.17605/OSF.IO/UN5JS
-- **Archived release (Zenodo):** `[DOI to be added after the first release]`
+- **Archived release (Zenodo):** `https://doi.org/10.5281/zenodo.24484426
 - **Article:** `[DOI to be added on publication]`
 
 The review followed PRISMA 2020. Scopus, Web of Science, IEEE Xplore and the ACM Digital Library were searched on 15 March 2026 for studies published from 2020 onwards; 74 studies were included.
