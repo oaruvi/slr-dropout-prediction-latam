@@ -1,98 +1,97 @@
 variable,category,studies,percent
-Year,2025,22,25.9
-Year,2023,15,17.6
-Year,2024,14,16.5
-Year,2020,13,15.3
-Year,2021,11,12.9
-Year,2022,9,10.6
-Year,2026,1,1.2
-Country of the dataset,Brazil,18,21.2
-Country of the dataset,Peru,16,18.8
-Country of the dataset,Chile,11,12.9
-Country of the dataset,Ecuador,11,12.9
-Country of the dataset,Mexico,11,12.9
-Country of the dataset,Colombia,10,11.8
-Country of the dataset,Argentina,2,2.4
-Country of the dataset,Costa Rica,2,2.4
-Country of the dataset,Multi-country,2,2.4
-Country of the dataset,Cuba,1,1.2
-Country of the dataset,Panama,1,1.2
-Publication type (from bibliographic record),Journal article,47,55.3
-Publication type (from bibliographic record),Conference paper,36,42.4
-Publication type (from bibliographic record),Book chapter,2,2.4
-Data source,Student information system only,60,70.6
-Data source,Multiple sources,16,18.8
-Data source,Learning management system only,5,5.9
-Data source,Surveys only,4,4.7
-Best-performing model,Random forest,21,24.7
-Best-performing model,Neural networks / deep learning,14,16.5
-Best-performing model,Gradient boosting,13,15.3
-Best-performing model,Logistic regression,11,12.9
-Best-performing model,Decision tree,8,9.4
-Best-performing model,Ensemble / stacking,4,4.7
-Best-performing model,Other,4,4.7
-Best-performing model,KNN,3,3.5
-Best-performing model,SVM,3,3.5
-Best-performing model,Naive Bayes,2,2.4
-Best-performing model,Not reported,2,2.4
-Sequential model,No,80,94.1
-Sequential model,Yes,5,5.9
-Validation strategy,k-fold,27,31.8
-Validation strategy,Hold-out,22,25.9
-Validation strategy,Hold-out and k-fold,22,25.9
-Validation strategy,Not reported,10,11.8
-Validation strategy,Temporal,4,4.7
-Probability calibration,No,83,97.6
-Probability calibration,Yes,2,2.4
-Class imbalance treatment,None reported,54,63.5
-Class imbalance treatment,SMOTE / oversampling,18,21.2
-Class imbalance treatment,Undersampling,6,7.1
-Class imbalance treatment,Combined,4,4.7
-Class imbalance treatment,Cost-sensitive learning,3,3.5
-Generative balancing,No,84,98.8
-Generative balancing,Yes,1,1.2
-Explanation method,No,75,88.2
-Explanation method,SHAP,9,10.6
-Explanation method,LIME,1,1.2
-Fairness analysis,No,83,97.6
-Fairness analysis,Partial,1,1.2
-Fairness analysis,Yes,1,1.2
-Early warning system,No,81,95.3
-Early warning system,Yes,4,4.7
-Dashboard or platform,No,80,94.1
-Dashboard or platform,Yes,5,5.9
-Operational deployment,No,83,97.6
-Operational deployment,Yes,2,2.4
-Evaluation of an intervention,No,85,100.0
-Delivery mode,Not reported,66,77.6
-Delivery mode,Distance / online,11,12.9
-Delivery mode,On-site,6,7.1
-Delivery mode,Mixed,2,2.4
-Ethics review,Not reported,69,81.2
-Ethics review,Approval,11,12.9
-Ethics review,Exemption,5,5.9
-Informed consent,Not reported,69,81.2
-Informed consent,Yes,14,16.5
-Informed consent,Not applicable (secondary records),2,2.4
-Anonymization,Not reported,58,68.2
-Anonymization,Reported,27,31.8
-Data-protection regulation cited,Not reported,81,95.3
-Data-protection regulation cited,Habeas data legislation (Colombia),1,1.2
-Data-protection regulation cited,LGPD (Brazil),1,1.2
-Data-protection regulation cited,LOPDP (Ecuador),1,1.2
-Data-protection regulation cited,Law 8968 (Costa Rica),1,1.2
-Data availability,No statement,63,74.1
-Data availability,On request,11,12.9
-Data availability,Stated as not available,6,7.1
-Data availability,Public,5,5.9
-Code availability,No statement,78,91.8
-Code availability,Public,7,8.2
-Metrics reported (multiple per study),Accuracy,79,92.9
-Metrics reported (multiple per study),Recall,65,76.5
-Metrics reported (multiple per study),Precision,64,75.3
-Metrics reported (multiple per study),F1,60,70.6
-Metrics reported (multiple per study),AUC-ROC,38,44.7
-Metrics reported (multiple per study),Specificity,19,22.4
-Metrics reported (multiple per study),Other,16,18.8
-Metrics reported (multiple per study),Kappa,6,7.1
-Metrics reported (multiple per study),PR-AUC,3,3.5
+Year,2025,19,25.7
+Year,2023,14,18.9
+Year,2020,12,16.2
+Year,2024,12,16.2
+Year,2021,9,12.2
+Year,2022,7,9.5
+Year,2026,1,1.4
+Country of the dataset,Brazil,18,24.3
+Country of the dataset,Peru,13,17.6
+Country of the dataset,Mexico,11,14.9
+Country of the dataset,Ecuador,10,13.5
+Country of the dataset,Chile,9,12.2
+Country of the dataset,Colombia,6,8.1
+Country of the dataset,Costa Rica,2,2.7
+Country of the dataset,Multi-country,2,2.7
+Country of the dataset,Argentina,1,1.4
+Country of the dataset,Cuba,1,1.4
+Country of the dataset,Panama,1,1.4
+Publication type (from bibliographic record),Journal article,41,55.4
+Publication type (from bibliographic record),Conference paper,32,43.2
+Publication type (from bibliographic record),Book chapter,1,1.4
+Data source,Student information system only,53,71.6
+Data source,Multiple sources,13,17.6
+Data source,Learning management system only,5,6.8
+Data source,Surveys only,3,4.1
+Best-performing model,Random forest,19,25.7
+Best-performing model,Neural networks / deep learning,13,17.6
+Best-performing model,Gradient boosting,12,16.2
+Best-performing model,Logistic regression,10,13.5
+Best-performing model,Decision tree,7,9.5
+Best-performing model,Ensemble / stacking,4,5.4
+Best-performing model,SVM,3,4.1
+Best-performing model,KNN,2,2.7
+Best-performing model,Other,2,2.7
+Best-performing model,Naive Bayes,1,1.4
+Best-performing model,Not reported,1,1.4
+Sequential model,No,69,93.2
+Sequential model,Yes,5,6.8
+Validation strategy,Hold-out,22,29.7
+Validation strategy,Hold-out and k-fold,21,28.4
+Validation strategy,k-fold,21,28.4
+Validation strategy,Not reported,7,9.5
+Validation strategy,Temporal,3,4.1
+Probability calibration,No,72,97.3
+Probability calibration,Yes,2,2.7
+Class imbalance treatment,None reported,46,62.2
+Class imbalance treatment,SMOTE / oversampling,15,20.3
+Class imbalance treatment,Undersampling,6,8.1
+Class imbalance treatment,Combined,4,5.4
+Class imbalance treatment,Cost-sensitive learning,3,4.1
+Generative balancing,No,73,98.6
+Generative balancing,Yes,1,1.4
+Explanation method,No,64,86.5
+Explanation method,SHAP,9,12.2
+Explanation method,LIME,1,1.4
+Fairness analysis,No,72,97.3
+Fairness analysis,Partial,1,1.4
+Fairness analysis,Yes,1,1.4
+Early warning system,No,70,94.6
+Early warning system,Yes,4,5.4
+Dashboard or platform,No,69,93.2
+Dashboard or platform,Yes,5,6.8
+Operational deployment,No,72,97.3
+Operational deployment,Yes,2,2.7
+Evaluation of an intervention,No,74,100.0
+Delivery mode,Not reported,57,77.0
+Delivery mode,Distance / online,10,13.5
+Delivery mode,On-site,5,6.8
+Delivery mode,Mixed,2,2.7
+Ethics review,Not reported,62,83.8
+Ethics review,Approval,7,9.5
+Ethics review,Exemption,5,6.8
+Informed consent,Not reported,62,83.8
+Informed consent,Yes,11,14.9
+Informed consent,Not applicable (secondary records),1,1.4
+Anonymization,Not reported,51,68.9
+Anonymization,Reported,23,31.1
+Data-protection regulation cited,Not reported,71,95.9
+Data-protection regulation cited,Habeas data legislation (Colombia),1,1.4
+Data-protection regulation cited,LGPD (Brazil),1,1.4
+Data-protection regulation cited,Law 8968 (Costa Rica),1,1.4
+Data availability,No statement,58,78.4
+Data availability,On request,8,10.8
+Data availability,Stated as not available,5,6.8
+Data availability,Public,3,4.1
+Code availability,No statement,68,91.9
+Code availability,Public,6,8.1
+Metrics reported (multiple per study),Accuracy,70,94.6
+Metrics reported (multiple per study),Recall,57,77.0
+Metrics reported (multiple per study),Precision,56,75.7
+Metrics reported (multiple per study),F1,54,73.0
+Metrics reported (multiple per study),AUC-ROC,34,45.9
+Metrics reported (multiple per study),Specificity,17,23.0
+Metrics reported (multiple per study),Other,12,16.2
+Metrics reported (multiple per study),Kappa,6,8.1
+Metrics reported (multiple per study),PR-AUC,3,4.1

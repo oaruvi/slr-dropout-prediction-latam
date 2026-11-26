@@ -79,7 +79,7 @@ table([("All", rows)] + [(p, [r for r in rows if r["period"] == p]) for p in ("2
 
 # ---------------------------------------------------------------- 4. sensitivity analyses S1-S3
 TEAM = {"ART67_SCP", "ART226_SCP"}                                   # co-authored by the review team
-DISCUSSED = {"ART56_SCP", "ART323_WOS", "ART251_SCP", "ART369_WOS"}  # eligibility discussed during verification
+DISCUSSED = {"ART64_SCP", "ART323_WOS", "ART251_SCP"}  # book chapter, dropout intention, case discussed during verification
 table([("Main analysis", rows),
        ("S1: without team co-authored studies", [r for r in rows if r["Study ID"] not in TEAM]),
        ("S2: without studies whose eligibility required discussion", [r for r in rows if r["Study ID"] not in DISCUSSED]),
