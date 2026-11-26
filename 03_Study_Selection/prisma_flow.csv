@@ -10,13 +10,13 @@ Records excluded,495,
 Reports sought for retrieval,386,
 Reports not retrieved,69,
 Reports assessed for eligibility,317,full_text_screening.csv
-Reports excluded,232,excluded_reports.csv
-  Not focused on dropout prediction,145,
+Reports excluded,243,excluded_reports.csv
+  Not focused on dropout prediction,153,
   Not undergraduate higher education,39,
-  Data from outside Latin America,26,
+  Data from outside Latin America,28,
   Review article,16,
-  Duplicate report,2,
+  Duplicate report,3,
   Published before 2020,2,
   Retracted,1,
   No performance metrics reported,1,
-Studies included in the review,85,../04_Coded_Dataset/coded_dataset.csv
+Studies included in the review,74,../04_Coded_Dataset/coded_dataset.csv
