@@ -8,7 +8,7 @@ This repository contains the search strategies, selection records, coded dataset
 - **Archived release (Zenodo):** `[DOI to be added after the first release]`
 - **Article:** `[DOI to be added on publication]`
 
-The review followed PRISMA 2020. Scopus, Web of Science, IEEE Xplore and the ACM Digital Library were searched on 15 March 2026 for studies published from 2020 onwards; 85 studies were included.
+The review followed PRISMA 2020. Scopus, Web of Science, IEEE Xplore and the ACM Digital Library were searched on 15 March 2026 for studies published from 2020 onwards; 74 studies were included.
 
 ## Contents
 
@@ -25,9 +25,9 @@ The review followed PRISMA 2020. Scopus, Web of Science, IEEE Xplore and the ACM
 │   ├── duplicates.csv                      Duplicate records removed (n = 214)
 │   ├── title_abstract_screening.csv        Records screened on title and abstract (n = 881)
 │   ├── full_text_screening.csv             Reports assessed for eligibility (n = 317)
-│   └── excluded_reports.csv                Reports excluded at full text, with reasons (n = 232)
+│   └── excluded_reports.csv                Reports excluded at full text, with reasons (n = 243)
 ├── 04_Coded_Dataset/
-│   ├── coded_dataset.csv                   One row per included study (n = 85)
+│   ├── coded_dataset.csv                   One row per included study (n = 74)
 │   ├── data_dictionary.csv                 Definition and observed values of every column
 │   └── included_studies.bib                References of the included studies (key = Study ID)
 └── 05_Analysis/
@@ -71,17 +71,18 @@ Three points matter when reusing the data:
 
 The files in `03_Study_Selection/` hold the bibliographic fields of the records at each stage (title, authors, venue, year, database, document type, DOI) as exported from the databases. Abstracts, keywords and affiliations were removed.
 
-`excluded_reports.csv` lists the 232 reports excluded after full-text assessment: 161 at full-text screening and 71 in an eligibility audit carried out during data extraction (column `Stage`). The 495 records excluded on title and abstract and the 69 reports that could not be retrieved are not listed in a separate file; together they are the records of `title_abstract_screening.csv` that do not appear in `full_text_screening.csv`.
+`excluded_reports.csv` lists the 243 reports excluded after full-text assessment: 161 at full-text screening and 82 in an eligibility audit carried out during data extraction (column `Stage`). The 495 records excluded on title and abstract and the 69 reports that could not be retrieved are not listed in a separate file; together they are the records of `title_abstract_screening.csv` that do not appear in `full_text_screening.csv`.
 
 ## Keyword-assisted coding
 
 Reporting practices were coded with the help of keyword searches of the full texts. `keyword_screening/keyword_terms.json` contains the term lists (regular expressions in English, Spanish and Portuguese) of the three passes, and `keyword_flags.py` applies them to a folder of plain-text files. A match only located a candidate passage; every code was assigned by a reviewer after reading the passage and verified by a second reviewer.
 
-The full texts are not distributed, for copyright reasons. `outputs/keyword_match_counts.csv` gives the number of matches of each term list in each included study. `outputs/keyword_indicators_broader_criterion.csv` holds the comparison reported in place of the fourth registered sensitivity analysis; it counts mentions in the text, not verified practices. The regular expressions and minimum number of matches of each indicator are in `keyword_screening/indicator_definitions.json`; the broader corpus is the 85 included studies plus the 38 excluded reports whose target was academic risk or performance.
+The full texts are not distributed, for copyright reasons. `outputs/keyword_match_counts.csv` gives the number of matches of each term list in each included study. `outputs/keyword_indicators_broader_criterion.csv` holds the comparison reported in place of the fourth registered sensitivity analysis; it counts mentions in the text, not verified practices. The regular expressions and minimum number of matches of each indicator are in `keyword_screening/indicator_definitions.json`; the broader corpus is the 74 included studies plus the 38 excluded reports whose target was academic risk or performance.
 
 ## Deviations from the registered protocol
 
-- The registration reports 99 included studies. Verification of the extracted data against the full texts, and a final check of the educational level and prediction target of each study, left 85. Sixteen reports were removed and two restored (net change of 14); all removed reports are listed in `03_Study_Selection/excluded_reports.csv` with the stage "Eligibility audit". The main reasons were datasets from outside Latin America, a target other than dropout, no performance metrics, and samples that were not undergraduate cohorts (graduate, secondary-level or non-degree students).
+- The registration reports 99 included studies. Verification of the extracted data against the full texts, a final check of the educational level and prediction target of each study, and a last review of the eligibility of the included reports left 74. Twenty-seven reports were removed and two restored (net change of 25); all removed reports are listed in `03_Study_Selection/excluded_reports.csv` with the stage "Eligibility audit". The main reasons were datasets from outside Latin America, a target other than dropout, no performance metrics, and samples that were not undergraduate cohorts (graduate, secondary-level or non-degree students).
+- The registered criteria name journal articles and full-length conference papers. One peer-reviewed book chapter (ART64_SCP) that met all other criteria was retained; this is a deviation from the registered wording, and sensitivity analysis S2 excludes it. Studies whose only Latin American data served to validate externally a model trained on data from another region were excluded (ART56_SCP).
 - The fourth registered sensitivity analysis (broader reading of the prediction-target criterion) could not be carried out with verified codes and was replaced by a comparison of automated keyword indicators.
 
 ## Licenses
