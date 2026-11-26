@@ -1,11 +1,11 @@
 id,type,criterion
-I1,Inclusion,Peer-reviewed journal article or full-length conference paper published between 1 January 2020 and 15 March 2026.
+I1,Inclusion,"Peer-reviewed journal article, full-length conference paper or peer-reviewed book chapter published between 1 January 2020 and 15 March 2026."
 I2,Inclusion,"Empirical ML, data mining or statistical classification model whose prediction target is student dropout, attrition, withdrawal or retention (including dropout risk and dropout intention)."
 I3,Inclusion,Explicit reporting of quantitative performance metrics.
 I4,Inclusion,Undergraduate cohorts in higher education institutions.
 I5,Inclusion,Dataset originating from a higher education institution in a Latin American country.
 E1,Exclusion,Published before 2020.
-E2,Exclusion,"Reviews, opinion papers, short abstracts, books or non-peer-reviewed preprints."
+E2,Exclusion,"Reviews, opinion papers, short abstracts, edited volumes or monographs as a whole, or non-peer-reviewed preprints."
 E3,Exclusion,"No algorithmic details, feature definitions or performance metrics."
 E4,Exclusion,"Primary, secondary or vocational education, or no higher-education context."
 E5,Exclusion,Dataset from outside Latin America (including Spain and Portugal) or from global online course platforms.
